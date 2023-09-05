@@ -1,0 +1,9 @@
+
+ full-stack Java developer with Spring Boot, React, and JHipster.
+SDKMAN 
+
+git clone https://github.com/oktadev/auth0-full-stack-java-example
+
+npm i -g generator-jhipster@7
+
+java 11, nodejs 14, docker, jhipster, jhister-native, maven, cypress
