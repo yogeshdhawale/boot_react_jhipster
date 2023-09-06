@@ -11,29 +11,37 @@ deps: java 11, nodejs 14, docker, jhipster, jhister-native, maven, cypress
 Install jhistper generator
     npm ls -g generator-jhipster
 
-jhipster -> asks for lot of options.
-Question	Answer
-Type of application?	Monolithic application
-Name?	flickr2
-Spring WebFlux?	No
-Java package name?	com.auth0.flickr2
-Type of authentication?	OAuth 2.0 / OIDC
-Type of database?	SQL
-Production database?	PostgreSQL
-Development database?	H2 with disk-based persistence
-Which cache?	Ehcache
-Use Hibernate 2nd level cache?	Yes
-Maven or Gradle?	Maven
-Use the JHipster Registry?	No
-Other technologies?	<blank>
-Client framework?	React
-Admin UI?	Yes
-Bootswatch theme?	United > Dark
-Enable i18n?	Yes
-Native language of application?	English
-Additional languages?	Your choice!
-Additional testing frameworks?	Cypress
-Install other generators?	No
+options:
+    jhipster -> asks for lot of options.
+    Question	Answer
+    Type of application?	Monolithic application
+    Name?	flickr2
+    Spring WebFlux?	No
+    Java package name?	com.auth0.flickr2
+    Type of authentication?	OAuth 2.0 / OIDC
+    Type of database?	SQL
+    Production database?	PostgreSQL
+    Development database?	H2 with disk-based persistence
+    Which cache?	Ehcache
+    Use Hibernate 2nd level cache?	Yes
+    Maven or Gradle?	Maven
+    Use the JHipster Registry?	No
+    Other technologies?	<blank>
+    Client framework?	React
+    Admin UI?	Yes
+    Bootswatch theme?	United > Dark
+    Enable i18n?	Yes
+    Native language of application?	English
+    Additional languages?	Your choice!
+    Additional testing frameworks?	Cypress
+    Install other generators?	No
+
+
+
+npm install
+
+docker-compose -f src/main/docker/keycloak.yml up -d
+
 
 
 ---other

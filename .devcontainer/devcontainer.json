@@ -12,15 +12,14 @@
 	//	}
 	//},
 	"features": {
-		"ghcr.io/devcontainers/features/java:1": {
-			"version":"none"
-		},
+		"ghcr.io/devcontainers/features/java:1": {},
 		"ghcr.io/devcontainers/features/node:1": {},
 		"ghcr.io/devcontainers-contrib/features/fulcio:1": {},
 		"ghcr.io/devcontainers-contrib/features/jshint:2": {},
 		"ghcr.io/devcontainers-contrib/features/nestjs-cli:2": {},
 		"ghcr.io/devcontainers-contrib/features/npm-package:1": {},
-		"ghcr.io/devcontainers/features/github-cli:1": {}
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/common-utils:2": {}
 
 		//"ghcr.io/ebaskoro/devcontainer-features/sdkman:1": {}
 	},
