@@ -10,3 +10,13 @@ java 11, nodejs 14, docker, jhipster, jhister-native, maven, cypress
 
 
 npm ls -g generator-jhipster
+
+
+---
+
+docker context ls
+NAME                TYPE                DESCRIPTION                               DOCKER ENDPOINT                             KUBERNETES ENDPOINT   ORCHESTRATOR
+default *           moby                Current DOCKER_HOST based configuration   unix:///var/run/docker.sock                                   
+desktop-linux       moby                Docker Desktop                            npipe:////./pipe/dockerDesktopLinuxEngine                     
+docker context rm desktop-linux
+desktop-linux
