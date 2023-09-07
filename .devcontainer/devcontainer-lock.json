@@ -1,5 +1,10 @@
 {
   "features": {
+    "ghcr.io/devcontainers-contrib/features/ant-sdkman:2": {
+      "version": "2.0.14",
+      "resolved": "ghcr.io/devcontainers-contrib/features/ant-sdkman@sha256:1bf16e41e74f83668a84acc285e5cbdfecd51f9452490a4dc7f6f91a63be5cf3",
+      "integrity": "sha256:1bf16e41e74f83668a84acc285e5cbdfecd51f9452490a4dc7f6f91a63be5cf3"
+    },
     "ghcr.io/devcontainers-contrib/features/fulcio:1": {
       "version": "1.0.8",
       "resolved": "ghcr.io/devcontainers-contrib/features/fulcio@sha256:ad49507137ed4b786a46839f7384bc465e08a4b948142d5f4ea378a8c876ccba",
@@ -24,6 +29,16 @@
       "version": "2.1.2",
       "resolved": "ghcr.io/devcontainers/features/common-utils@sha256:5f1d43a3323396e609b4e60237b3d6d38d0091d1a85be88faa9e5eb389cda6bf",
       "integrity": "sha256:5f1d43a3323396e609b4e60237b3d6d38d0091d1a85be88faa9e5eb389cda6bf"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "2.4.0",
+      "resolved": "ghcr.io/devcontainers/features/docker-in-docker@sha256:dd0f891bb1bbfc7272eaeb3fa1b07e70de2db8decb19353d376590ab18644a5c",
+      "integrity": "sha256:dd0f891bb1bbfc7272eaeb3fa1b07e70de2db8decb19353d376590ab18644a5c"
+    },
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+      "version": "1.3.0",
+      "resolved": "ghcr.io/devcontainers/features/docker-outside-of-docker@sha256:4fb38c49456bc2ef0d00acd475cbf03b7d62376e6c6198a7fc3945606d69f714",
+      "integrity": "sha256:4fb38c49456bc2ef0d00acd475cbf03b7d62376e6c6198a7fc3945606d69f714"
     },
     "ghcr.io/devcontainers/features/github-cli:1": {
       "version": "1.0.10",
