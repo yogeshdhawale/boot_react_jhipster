@@ -1,5 +1,6 @@
 
- full-stack Java developer with Spring Boot, React, and JHipster.
+full-stack Java developer with Spring Boot, React, and JHipster.
+
 SDKMAN 
 
 git clone https://github.com/oktadev/auth0-full-stack-java-example
@@ -39,6 +40,10 @@ options:
 
 
 npm install
+
+* docker in docker seems to be not required. 
+* Update docker from docker to docker-outside-of-docker and comment docker-in-docker.
+
 
 docker-compose -f src/main/docker/keycloak.yml up -d
 

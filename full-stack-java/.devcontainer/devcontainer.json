@@ -15,33 +15,37 @@
       "NODE_VERSION": "lts/*"
     }
   },
-
-  // Set *default* container specific settings.json values on container create.
-  "settings": {
-    "java.home": "/docker-java-home"
-  },
-
   // Add the IDs of extensions you want installed when the container is created.
-  "extensions": [
-    "christian-kohler.npm-intellisense",
-    "firsttris.vscode-jest-runner",
-    "ms-vscode.vscode-typescript-tslint-plugin",
-    "dbaeumer.vscode-eslint",
-    "vscjava.vscode-java-pack",
-    "pivotal.vscode-boot-dev-pack",
-    "esbenp.prettier-vscode"
-  ],
-
+  "customizations": {
+    "vscode": {
+      // Set *default* container specific settings.json values on container create.
+      "settings": {
+        "ava.jdt.ls.java.home": "/docker-java-home"
+      },
+      "extensions": [
+        "christian-kohler.npm-intellisense",
+        "firsttris.vscode-jest-runner",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "dbaeumer.vscode-eslint",
+        "vscjava.vscode-java-pack",
+        "pivotal.vscode-boot-dev-pack",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [9060, 3001, 9000, 8080],
-
+  "forwardPorts": [
+    9060,
+    3001,
+    9000,
+    8080
+  ],
   // Use 'postCreateCommand' to run commands after the container is created.
   // "postCreateCommand": "java -version",
-
   // Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
   "remoteUser": "vscode",
   "features": {
-    "docker-in-docker": "latest",
-    "docker-from-docker": "latest"
+    //"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
   }
 }
