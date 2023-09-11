@@ -21,6 +21,7 @@
     "enableHibernateCache": true,
     "enableSwaggerCodegen": false,
     "enableTranslation": true,
+    "entities": [],
     "entitySuffix": "",
     "jhiPrefix": "jhi",
     "jhipsterVersion": "7.9.4",
